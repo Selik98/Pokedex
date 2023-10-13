@@ -21,8 +21,10 @@ const fetchPokemons = async () => {
             name: pokemonData.name,
             image: pokemonData.sprites.front_default,
             type: pokemonData.types.map(currentType => currentType.type.name).join(', '),
-            id: pokemonData.id
+            id: pokemonData.id,
+            
         }
+        console.log(pokemonData);
 
         // A continuación, puedes usar los datos del Pokémon (nombre, imagen, tipo, etc.)
         // para mostrarlo en tu página web como lo desees.
@@ -50,5 +52,15 @@ const fetchPokemons = async () => {
         console.error(error);
     }
 
+
+    
+
 }
 fetchPokemons();
+
+
+// Le asigno los 0 correspondiente al valor según la Pokedex
+ let nPokemon = selectedPokemon.innerText.split(' ')[1]
+ if (nPokemon < 10) selectedPokemon.innerText = 'N° 00' + nPokemon
+ else if (nPokemon < 100) selectedPokemon.innerText = 'N° 0' + nPokemon
+

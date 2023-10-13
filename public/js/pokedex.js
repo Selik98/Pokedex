@@ -88,9 +88,11 @@ const searchPokemon = search => {
     // Itera sobre los nombres y oculta/muestra elementos según la búsqueda.
     pokemonNameList.forEach(pokemonName => {
         if (!pokemonName.innerText.includes(search.toUpperCase())) {
-            pokemonName.parentElement.style.display = 'none';
+
+            pokemonName.parentElement.parentElement.style.display = 'none';
+
         } else {
-            pokemonName.parentElement.style.display = 'list-item';
+            pokemonName.parentElement.parentElement.style.display = 'block';
         }
     });
 }

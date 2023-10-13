@@ -108,3 +108,73 @@
     color: white;
 }
 
+
+
+
+button.grass:hover {
+    background-color: #85D055;
+  }
+  
+  button.poison:hover {
+    background-color: #AA49AE;
+  }
+  
+  button.fire:hover {
+    background-color: #F29643;
+  }
+  
+  button.flying:hover {
+    background-color: #B29DF5;
+  }
+  
+  button.water:hover {
+    background-color: #699BFE;
+  }
+  
+  button.bug:hover {
+    background-color: #B0CB1E;
+  }
+  
+  button.normal:hover {
+    background-color: #B2B182;
+  }
+  
+  button.electric:hover {
+    background-color: #F9D739;
+  }
+  
+  button.ground:hover {
+    background-color: #E6C671;
+  }
+  
+  button.fairy:hover {
+    background-color: #DCA2B7;
+  }
+  
+  button.fighting:hover {
+    background-color: #d14040;
+  }
+  
+  button.psychic:hover {
+    background-color: #FA6294;
+  }
+  
+  button.rock:hover {
+    background-color: #B9A843;
+  }
+  
+  button.steel:hover {
+    background-color: #BABACE;
+  }
+  
+  button.ice:hover {
+    background-color: #9CDEEA;
+  }
+  
+  button.dragon:hover {
+    background-color: #7841FE;
+  }
+  
+  button.ghost:hover {
+    background-color: #8163A9;
+  }

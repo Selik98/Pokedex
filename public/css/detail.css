@@ -1,0 +1,39 @@
+#pokemon {
+    display: flex;
+    flex-direction: column;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sup {
+    display: flex;
+    
+    justify-content: space-evenly;
+    margin-top: 70px;
+    width: 60vw;
+    align-items: center;
+    background-color: antiquewhite;
+    border-radius: 25px;
+}
+
+#image{
+    width: 200px;
+}
+
+.button {
+    background-color: #FF3333;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #FF6666;
+  }

@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/img/logo-mercado-liebre.svg" type="image/x-icon">
+    <link rel="shortcut icon" href="/img/pokeball.png" type="image/x-icon">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/detail.css">
     <title>
-        Titulo
+        Pokedex
     </title>
 </head>
 
@@ -23,6 +24,8 @@
                     <img class="logo" src="/img/pokeball.png">
                 </div>
 
+                <a href="/"><button class = 'button'>Volver al Inicio</button></a>
+
             </div>
 
 
@@ -33,12 +36,20 @@
 
     <main>
         <div id="pokemon">
+
+            <div class="sup">
+
+                <div class="nombre">
+                    
+                </div>
+                <h1 id = 'selectedPokemon'>N° <%= showPokemon %></h1>
+            </div>
+            
             <img id='image'>
             <div class="pokeData">
 
                 <div class="precio">
 
-                    <h5></h5>
                     <h6></h6>
                 </div>
                 <b>
@@ -55,6 +66,7 @@
 
 
 
+    <script src="/js/detail.js"></script>
 
 </body>
 

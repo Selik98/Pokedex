@@ -11,8 +11,9 @@ const controller = {
     res.render('index')
   }),
   detail: ('/', (req, res) => {
-    console.log('Hicieron un Request en "Quisieron Ver al pokemon N° ' + req.params.id)
-    res.render('detail')
+    let showPokemon = req.params.id
+    console.log('Hicieron un Request en "Quisieron Ver al pokemon N° ' + showPokemon)
+    res.render('detail', { showPokemon });
   }),
 
 
